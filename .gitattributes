@@ -1,1 +1,3 @@
-*.cs linguist-language=C#
+*.cshtml linguist-language=C#
+*.cs linguist-detectable=true
+Views/* linguist-vendored
