@@ -1,3 +1,6 @@
+# With the following attribute, Linguist detects all .cshtml files as being c# files.
 *.cshtml linguist-language=C#
+# Linguist counts cs files in statistics
 *.cs linguist-detectable=true
+# Linguist detects files in the special-path directory and excludes them from statistics
 Views/* linguist-vendored
